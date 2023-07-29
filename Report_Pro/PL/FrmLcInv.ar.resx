@@ -1,0 +1,1401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="headLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 18pt, style=Bold</value>
+  </data>
+  <data name="headLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1161, 35</value>
+  </data>
+  <data name="headLbl.Text" xml:space="preserve">
+    <value>فاتورة اعتماد</value>
+  </data>
+  <data name="ribbonBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1161, 27</value>
+  </data>
+  <data name="DGV1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 239</value>
+  </data>
+  <data name="DGV1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>814, 134</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LShipDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LShipDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LShipDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LShipDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LShipDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LShipDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 160</value>
+  </data>
+  <data name="LShipDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="LShipDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="LShipDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="LShipDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LShipDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="ExpiryDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ExpiryDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ExpiryDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ExpiryDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ExpiryDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ExpiryDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 135</value>
+  </data>
+  <data name="ExpiryDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="ExpiryDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="ExpiryDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="ExpiryDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExpiryDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="OpenDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OpenDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 109</value>
+  </data>
+  <data name="OpenDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="OpenDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="OpenDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="OpenDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpenDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 135</value>
+  </data>
+  <data name="txtLcAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 135</value>
+  </data>
+  <data name="lblExpiryDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 135</value>
+  </data>
+  <data name="lblShipDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 160</value>
+  </data>
+  <data name="lblOpenDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 109</value>
+  </data>
+  <data name="lblMatrial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 209</value>
+  </data>
+  <data name="txtMatrails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 209</value>
+  </data>
+  <data name="lblQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 210</value>
+  </data>
+  <data name="txtQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 210</value>
+  </data>
+  <data name="txtAddValue.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtAddValue.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtAddValue.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtAddValue.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtAddValue.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtAddValue.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtAddValue.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 160</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 185</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 164</value>
+  </data>
+  <data name="txtSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 185</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 164</value>
+  </data>
+  <data name="Currency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 185</value>
+  </data>
+  <data name="lblValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 160</value>
+  </data>
+  <data name="BName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 160</value>
+  </data>
+  <data name="Amount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 160</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 185</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 109</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 208</value>
+  </data>
+  <data name="LcNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 110</value>
+  </data>
+  <data name="Rate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 208</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 110</value>
+  </data>
+  <data name="AcceptDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 135</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 135</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 160</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 139</value>
+  </data>
+  <data name="BAccept.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 184</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 184</value>
+  </data>
+  <data name="InvMaturtyDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvMaturtyDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvMaturtyDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvMaturtyDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvMaturtyDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvMaturtyDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 136</value>
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvMaturtyDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="InvShipDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvShipDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvShipDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvShipDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvShipDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvShipDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 111</value>
+  </data>
+  <data name="InvShipDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="InvShipDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="InvShipDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="InvShipDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvShipDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="balanceQty.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceQty.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceQty.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceQty.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceQty.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceQty.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceQty.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 88</value>
+  </data>
+  <data name="balanceAmount.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceAmount.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceAmount.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceAmount.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceAmount.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="balanceAmount.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="balanceAmount.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balanceAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 62</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 88</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 62</value>
+  </data>
+  <data name="Accept_Amount.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Accept_Amount.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Accept_Amount.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Accept_Amount.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Accept_Amount.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Accept_Amount.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Accept_Amount.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Accept_Amount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 161</value>
+  </data>
+  <data name="InvQty.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvQty.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvQty.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvQty.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvQty.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvQty.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvQty.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvQty.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvQty.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvQty.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvQty.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvQty.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvQty.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvQty.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvQty.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 87</value>
+  </data>
+  <data name="InvAmount.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvAmount.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvAmount.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvAmount.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvAmount.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="InvAmount.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="InvAmount.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 62</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 136</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 161</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 111</value>
+  </data>
+  <data name="InvNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 37</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 87</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 37</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 62</value>
+  </data>
+  <data name="btnRecive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 114</value>
+  </data>
+  <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>637, 80</value>
+  </data>
+  <data name="rdoReceve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 52</value>
+  </data>
+  <data name="rdoReceve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="rdoNotReceve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 24</value>
+  </data>
+  <data name="rdoNotReceve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="reciveDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reciveDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reciveDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reciveDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reciveDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="reciveDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 79</value>
+  </data>
+  <data name="reciveDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="reciveDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="reciveDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="reciveDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reciveDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="txtLoanId.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanId.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanId.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanId.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanId.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanId.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtIntrestRate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtIntrestRate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtIntrestRate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtIntrestRate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtIntrestRate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtIntrestRate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIntrestRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 28</value>
+  </data>
+  <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 28</value>
+  </data>
+  <data name="labelX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 53</value>
+  </data>
+  <data name="NoOfPayments.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoOfPayments.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoOfPayments.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoOfPayments.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoOfPayments.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoOfPayments.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoOfPayments.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoOfPayments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 51</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 80</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 80</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 80</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 80</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 80</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 55</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 31</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 100</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 114</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 8</value>
+  </data>
+  <data name="txtLoanAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 4</value>
+  </data>
+  <data name="txtLoanNo.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanNo.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanNo.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanNo.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanNo.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanNo.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 28</value>
+  </data>
+  <data name="txtLoanValue.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanValue.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanValue.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanValue.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanValue.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtLoanValue.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtLoanValue.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoanValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 51</value>
+  </data>
+  <data name="payMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 79</value>
+  </data>
+  <data name="labelX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 79</value>
+  </data>
+  <data name="btnUpdatePay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 113</value>
+  </data>
+  <data name="labelX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 56</value>
+  </data>
+  <data name="PayDate.ButtonClear.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PayDate.ButtonClear.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.ButtonClear.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PayDate.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.ButtonCustom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PayDate.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.ButtonCustom2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.ButtonDropDown.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PayDate.ButtonDropDown.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.ButtonDropDown.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.ButtonFreeText.DisplayPosition" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PayDate.ButtonFreeText.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.ButtonFreeText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 56</value>
+  </data>
+  <data name="PayDate.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="PayDate.MonthCalendar.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.CommandParameter" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.DayNames" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="PayDate.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="PayDate.MonthCalendar.Tag" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PayDate.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="rdoPaied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 34</value>
+  </data>
+  <data name="rdoNotPaied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 34</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>806, 241</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>806, 241</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 3</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 218</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>806, 241</value>
+  </data>
+  <data name="tabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 379</value>
+  </data>
+  <data name="tabControl2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="tabControl2.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>814, 267</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1161, 658</value>
+  </data>
+</root>

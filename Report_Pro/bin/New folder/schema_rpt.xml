@@ -1,0 +1,112 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ser_no" type="xs:int" minOccurs="0" />
+              <xs:element name="Branch_code" type="xs:string" minOccurs="0" />
+              <xs:element name="Cyear" type="xs:string" minOccurs="0" />
+              <xs:element name="Transaction_code" type="xs:string" minOccurs="0" />
+              <xs:element name="G_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Acc_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Payment_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_man_Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Inv_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Inv_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Inv_Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" type="xs:string" minOccurs="0" />
+              <xs:element name="Adress" type="xs:string" minOccurs="0" />
+              <xs:element name="PROJECT_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="Costmer_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Cash_costomer_name" type="xs:string" minOccurs="0" />
+              <xs:element name="REQUIST_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref" type="xs:string" minOccurs="0" />
+              <xs:element name="acc_serial_no" type="xs:int" minOccurs="0" />
+              <xs:element name="Qutation_No" type="xs:string" minOccurs="0" />
+              <xs:element name="REQUIST_NO1" type="xs:string" minOccurs="0" />
+              <xs:element name="Dowen_Payment_Ratio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Dowen_Payment_acc_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Dowen_Payment" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Dowen_Payment_Vat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Sales_Vat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Guarantee_Acc" type="xs:string" minOccurs="0" />
+              <xs:element name="Guarantee_Ratio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Guarantee_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="po_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref1" type="xs:string" minOccurs="0" />
+              <xs:element name="modular" type="xs:string" minOccurs="0" />
+              <xs:element name="DP_Ratio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DP_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VAT_RATIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="main_counter" type="xs:int" minOccurs="0" />
+              <xs:element name="ITEM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY_ADD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QTY_TAKE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Unit" type="xs:string" minOccurs="0" />
+              <xs:element name="Local_Price" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TAX_IN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TAX_OUT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="disc_" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAYER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="payer_l_name" type="xs:string" minOccurs="0" />
+              <xs:element name="lc_name" type="xs:string" minOccurs="0" />
+              <xs:element name="lc_L_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="adress1" type="xs:string" minOccurs="0" />
+              <xs:element name="adress_E" type="xs:string" minOccurs="0" />
+              <xs:element name="phone_no" type="xs:string" minOccurs="0" />
+              <xs:element name="fax_no" type="xs:string" minOccurs="0" />
+              <xs:element name="E_MAIL" type="xs:string" minOccurs="0" />
+              <xs:element name="COSTMER_K_M_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="SEGEL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="ZAKAH_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="descr" type="xs:string" minOccurs="0" />
+              <xs:element name="Descr_eng" type="xs:string" minOccurs="0" />
+              <xs:element name="branch_name" type="xs:string" minOccurs="0" />
+              <xs:element name="WH_E_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="Branch_Logo_A4" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Payment_name" type="xs:string" minOccurs="0" />
+              <xs:element name="unit_Description" type="xs:string" minOccurs="0" />
+              <xs:element name="unit_Description_E" type="xs:string" minOccurs="0" />
+              <xs:element name="PROJ_name" type="xs:string" minOccurs="0" />
+              <xs:element name="PROJ_E_name" type="xs:string" minOccurs="0" />
+              <xs:element name="VatRatio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Barcode" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Company_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_a_name" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_e_name" type="xs:string" minOccurs="0" />
+              <xs:element name="User_id" type="xs:string" minOccurs="0" />
+              <xs:element name="G_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Comp_Vat_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_AdressA" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_AdressE" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Phone_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Web_Site" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Rc" type="xs:string" minOccurs="0" />
+              <xs:element name="h_pic" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="f_pic" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="stamp_pic" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PO_Box" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

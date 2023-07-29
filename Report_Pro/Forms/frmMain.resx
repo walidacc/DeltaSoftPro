@@ -1,0 +1,2966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ribbonBar14.Name" xml:space="preserve">
+    <value>ribbonBar14</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.Parent" xml:space="preserve">
+    <value>ribbonPanel8</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel3.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="btnUpdateAccData.Text" xml:space="preserve">
+    <value>Update Account Data</value>
+  </data>
+  <data name="&gt;&gt;itemContainer1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonPanel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnItemCard.Name" xml:space="preserve">
+    <value>btnItemCard</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="fluentDesignFormControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 0</value>
+  </data>
+  <data name="ribbonPanel8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="buttonItem8.Text" xml:space="preserve">
+    <value>&amp;1. Short News 5-7.rtf</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.Name" xml:space="preserve">
+    <value>ribbonBar13</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v21.2" name="DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repositoryItemColorPickEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="ribbonPanel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="&gt;&gt;btnDownpayment.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="cmbYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="btnBanks.Text" xml:space="preserve">
+    <value>Banks</value>
+  </data>
+  <data name="rb_Production.Text" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="btnChangeBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="&gt;&gt;rb_Account.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;rb_Contracting.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonPanel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnRestor.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnPoReport.Tag" xml:space="preserve">
+    <value>frm_rpt_Po</value>
+  </data>
+  <data name="&gt;&gt;buttonItem20.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel1.Name" xml:space="preserve">
+    <value>ribbonPanel1</value>
+  </data>
+  <data name="ribbonBar13.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Name" xml:space="preserve">
+    <value>fluentDesignFormControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonControl, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;itemContainer2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel8.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel1.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="rb_FixedAssets.Text" xml:space="preserve">
+    <value>Fixed Assets</value>
+  </data>
+  <data name="ribbonBar3.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="&gt;&gt;btnBankPaymentVoucher.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnProductionRpt.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnCompanyData.Name" xml:space="preserve">
+    <value>btnCompanyData</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar14.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem5.Name" xml:space="preserve">
+    <value>buttonItem5</value>
+  </data>
+  <data name="ribbonBar15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ribbonPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="&gt;&gt;btnChoseBranch.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseReports.Name" xml:space="preserve">
+    <value>btnPurchaseReports</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ribbonBar8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 102</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="cmbYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 3</value>
+  </data>
+  <data name="&gt;&gt;btnSalesQuotation.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar12.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel9.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="rb_Purchase.Text" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="ribbonBar3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ribbonBar12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel2.Name" xml:space="preserve">
+    <value>ribbonPanel2</value>
+  </data>
+  <data name="btnBankDeposit.Text" xml:space="preserve">
+    <value>Bank Deposit</value>
+  </data>
+  <data name="&gt;&gt;btnInventoryReportByGroups.Name" xml:space="preserve">
+    <value>btnInventoryReportByGroups</value>
+  </data>
+  <data name="&gt;&gt;btnStores.Name" xml:space="preserve">
+    <value>btnStores</value>
+  </data>
+  <data name="&gt;&gt;buttonItem25.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;labelItem8.Name" xml:space="preserve">
+    <value>labelItem8</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 148</value>
+  </data>
+  <data name="buttonItem18.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btnSalesQuotation.Text" xml:space="preserve">
+    <value>Sales Quotation</value>
+  </data>
+  <data name="&gt;&gt;rb_Production.Name" xml:space="preserve">
+    <value>rb_Production</value>
+  </data>
+  <data name="btnProductionRpt.Text" xml:space="preserve">
+    <value>Production Reports</value>
+  </data>
+  <data name="&gt;&gt;btnCofig.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;buttonItem7.Name" xml:space="preserve">
+    <value>buttonItem7</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel5.Name" xml:space="preserve">
+    <value>ribbonPanel5</value>
+  </data>
+  <data name="ribbonPanel6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonPanel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 3</value>
+  </data>
+  <data name="ribbonPanel6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnTransferAccountTransaction.Text" xml:space="preserve">
+    <value>Transfer Account Transaction</value>
+  </data>
+  <data name="&gt;&gt;btnTaxPurchaseReports.Name" xml:space="preserve">
+    <value>btnTaxPurchaseReports</value>
+  </data>
+  <data name="&gt;&gt;btnAssetes.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="btnCoseStore.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonItem16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnClient.Tag" xml:space="preserve">
+    <value>Frm_Config</value>
+  </data>
+  <data name="barEditItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btn_User.Text" xml:space="preserve">
+    <value>User Mangment</value>
+  </data>
+  <data name="ribbonBar8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 102</value>
+  </data>
+  <data name="btnInventoryReportByGroups.Text" xml:space="preserve">
+    <value>Inventory Report By Groups</value>
+  </data>
+  <data name="ribbonBar7.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Name" xml:space="preserve">
+    <value>barStaticItem1</value>
+  </data>
+  <data name="&gt;&gt;rb_Account.Name" xml:space="preserve">
+    <value>rb_Account</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barEditItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonItem1.Name" xml:space="preserve">
+    <value>buttonItem1</value>
+  </data>
+  <data name="btnItemCard.Text" xml:space="preserve">
+    <value>Item Card</value>
+  </data>
+  <data name="ribbonBar9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;buttonItem11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel10.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="btnPurchaseReports.Tag" xml:space="preserve">
+    <value>Frm_Config</value>
+  </data>
+  <data name="&gt;&gt;itemContainer4.Name" xml:space="preserve">
+    <value>itemContainer4</value>
+  </data>
+  <data name="btnUpdateInvoiceData.Text" xml:space="preserve">
+    <value>Update Invoice Data</value>
+  </data>
+  <data name="&gt;&gt;buttonItem2.Name" xml:space="preserve">
+    <value>buttonItem2</value>
+  </data>
+  <data name="&gt;&gt;cmbYear.Name" xml:space="preserve">
+    <value>cmbYear</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ribbonBar7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonItem21.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnItemQuery.Text" xml:space="preserve">
+    <value>Item Query</value>
+  </data>
+  <data name="&gt;&gt;btnSalesRpt.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
+    <value>&amp;Add to Quick Access Toolbar</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar4.Name" xml:space="preserve">
+    <value>ribbonBar4</value>
+  </data>
+  <data name="&gt;&gt;buttonItem3.Name" xml:space="preserve">
+    <value>buttonItem3</value>
+  </data>
+  <data name="ribbonBar14.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="&gt;&gt;buttonItem18.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnSalesOrder.Name" xml:space="preserve">
+    <value>btnSalesOrder</value>
+  </data>
+  <data name="btn_AccessProfile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;btnBanks.Name" xml:space="preserve">
+    <value>btnBanks</value>
+  </data>
+  <data name="btnSalesReturn.Text" xml:space="preserve">
+    <value>Sales Return</value>
+  </data>
+  <data name="&gt;&gt;Reports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCoseStore.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonItem12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;btnCoseStore.Name" xml:space="preserve">
+    <value>btnCoseStore</value>
+  </data>
+  <data name="buttonItem27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btn_UserSettingsProfile.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAccData.Name" xml:space="preserve">
+    <value>btnUpdateAccData</value>
+  </data>
+  <data name="buttonItem22.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="&gt;&gt;btn_User.Name" xml:space="preserve">
+    <value>btn_User</value>
+  </data>
+  <data name="ribbonBar12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;buttonItem22.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="repositoryItemComboBox1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="buttonItem15.Text" xml:space="preserve">
+    <value>Delivery Note</value>
+  </data>
+  <data name="ribbonPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="&gt;&gt;btnChangeBranch.Name" xml:space="preserve">
+    <value>btnChangeBranch</value>
+  </data>
+  <data name="&gt;&gt;btnPoReport.Name" xml:space="preserve">
+    <value>btnPoReport</value>
+  </data>
+  <data name="&gt;&gt;labelItem8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;itemContainer1.Name" xml:space="preserve">
+    <value>itemContainer1</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="btnLanguh.Text" xml:space="preserve">
+    <value>buttonItem21</value>
+  </data>
+  <data name="&gt;&gt;buttonItem4.Name" xml:space="preserve">
+    <value>buttonItem4</value>
+  </data>
+  <data name="ribbonBar5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 94</value>
+  </data>
+  <data name="&gt;&gt;btnCoilReport.Name" xml:space="preserve">
+    <value>btnCoilReport</value>
+  </data>
+  <data name="buttonItem17.Text" xml:space="preserve">
+    <value>Account Statement</value>
+  </data>
+  <data name="&gt;&gt;btnCoseStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonItem17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorPickEdit1.Name" xml:space="preserve">
+    <value>repositoryItemColorPickEdit1</value>
+  </data>
+  <data name="buttonItem21.Text" xml:space="preserve">
+    <value>Close Invoice To LC</value>
+  </data>
+  <data name="ribbonBar11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 0</value>
+  </data>
+  <data name="&gt;&gt;btnProductionRpt.Name" xml:space="preserve">
+    <value>btnProductionRpt</value>
+  </data>
+  <data name="&gt;&gt;btn_UserSettingsProfile.Name" xml:space="preserve">
+    <value>btn_UserSettingsProfile</value>
+  </data>
+  <data name="&gt;&gt;galleryContainer1.Name" xml:space="preserve">
+    <value>galleryContainer1</value>
+  </data>
+  <data name="barStaticItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ribbonBar6.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;buttonItem27.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;itemContainer2.Name" xml:space="preserve">
+    <value>itemContainer2</value>
+  </data>
+  <data name="ribbonPanel8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonItem13.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="&gt;&gt;buttonItem8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;rb_Permitions.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;cmbYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReportDailyEntry.Name" xml:space="preserve">
+    <value>btnReportDailyEntry</value>
+  </data>
+  <data name="ribbonPanel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ribbonBar4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnSalesRpt.Text" xml:space="preserve">
+    <value>Sales Reports</value>
+  </data>
+  <data name="ribbonPanel4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 3</value>
+  </data>
+  <data name="ribbonPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ribbonPanel10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCofig.Tag" xml:space="preserve">
+    <value>Frm_Config</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;buttonItem9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnCashVoucher.Text" xml:space="preserve">
+    <value>Receipt Voucher</value>
+  </data>
+  <data name="ribbonBar7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 0</value>
+  </data>
+  <data name="btnPoReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEsAAAA8CAYAAAAuaUeTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAABH5JREFUeF7tmu9PU1cYx6/6wje+MNk000Rw2qKCzoiwqckSY3yxvduLLUR9LQWy
+        ZqImJr7gtsNNZRoyUm41lGRbRpbxD/ijRRBS0AVESsFfTAkxW+KyZNYfWTL17pz6PDenp4cG2957T835
+        JN8XnOee53zPl3NvW4qmUCgUCoVCoVBIS2Nj416iz1A+n28rlBwlXPfLWuNAj0kFQ1k87S4zqeBH5/D7
+        /UtJOOZ8qg1PZqgmPPkcphYdEtAsBsXoXyhrqfOr3sWgWKW631sBl9hLU1PTJ6KQUN5gzNKG1oF/aGAw
+        tagY+3teCoKydOXYl1kh8Up1l1VCO/sgoaT4kKg+P9SaERZV+nQZiVMwtSiIwmH1JLJWGM58evzj6neg
+        tTtgWFVt8afFPF2icFilIu8LA1mInnStqYNlnGW9Ht3Nni4YzpvQ/p/LReGwEgWQlyJlB2FZ58CwyEP+
+        v0ICI0Ec54PhJdx0oYqsOQMW7AfD8n7d95IPqzp0c46OlZrAvj1gYHShmnNJHYa16o4bSd5IKQjs2wOG
+        VR0av8UvxhspBYF1e/AEYl+xp+uLXnMJlLSN3wyYGfr2ak5tyqlBc9PJ/FV5cii3Tr0WWLcPNqxaY/IZ
+        DGvlev9yrJWKwLp9eAPRV3ShjSey39HzZqRWIPYCbNtHpd6/DBekYVWHpj6CEgkydgFrs3NzUurT0FDa
+        nycQHQTb9oKBbOsYfzbf6Tr403XzSO+oVDr862jaG5UnGGsAy/biDUb/xEVz3Yr7IiNm+8UJabT3+9en
+        igrsOgMumn7QhycTMKyt0y+txJroNnBb6A3sOgMuuuFE//Ncp0tWgVVnqNAv7cGFaVgfGhM7oKRVBGM/
+        YE3023VL8eSMO2FRcGH6fmu+07XjuwFzd/ugFEJPVGDTOcjL70NcPNet2DM0bV5NzLiq/ol7lh8qsOks
+        uDgNi+gRDKfBmuiWcEPoh3xs+wMsOgsa2HL22l+5TpdM8uiXreero5A3d21ogoa107i5EkokrL6jWBP9
+        pp0WegF77oAm4FaU/nSBNXdgjQjCeszWZRBYcwdPa996NJI+XUayE0ppWKMyCGy5BxrZ2v5bij9dCh7T
+        XISB4bNrZ2iqHKoKngo99oEVmJGwQqOqMRL0xD1yS9vDCR/YlIje3iUYGKqqLZ7YfDo+XXU6nnRT4FA+
+        KoLRWj40twXWFG8bi7j/1HkI40WB621961RycBvhVdDGBP0yBJeVBmh65v79rM9qLS0tBW0K5966cyer
+        d6izs6DejkOMvqBm+Y2wyndDZM7fdN7o2JiwL5Xf70/3bmho+BimyQsGgebruoatVyYcS05P44bGYdqC
+        4Ht3XE5k9aaC61IwTV74DdG/WPIbGh4ZwbA6YNqC4HtPzczmCus6TJMXYjJAzXYaRsYGWMFm3vg29Pl8
+        XjqPPvdEfamwt67ri2Ga3KDh5ubmjI3cvnvX2gxRAC5/I5j5Gb1/f/CA7e3M1/TFghgeZsxnqL6+vgwu
+        ywvSo4vvyWgXXKZQKBQKhUKhUJQamvY/qz7GEk6xWGQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonItem16.Text" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateInvoiceData.Name" xml:space="preserve">
+    <value>btnUpdateInvoiceData</value>
+  </data>
+  <data name="&gt;&gt;btnItems.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="buttonItem20.Text" xml:space="preserve">
+    <value>Chart Of Account</value>
+  </data>
+  <data name="&gt;&gt;rb_Purchase.Name" xml:space="preserve">
+    <value>rb_Purchase</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar5.Parent" xml:space="preserve">
+    <value>ribbonPanel5</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTaxPurchaseReports.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar8.Name" xml:space="preserve">
+    <value>ribbonBar8</value>
+  </data>
+  <data name="ribbonBar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btn_AssetesGroup.Text" xml:space="preserve">
+    <value>Assetes Group</value>
+  </data>
+  <data name="fluentDesignFormControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ribbonControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCategoriesLabel" xml:space="preserve">
+    <value>&amp;Choose commands from:</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barEditItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;office2007StartButton1.Name" xml:space="preserve">
+    <value>office2007StartButton1</value>
+  </data>
+  <data name="btn_AccessProfile.Text" xml:space="preserve">
+    <value>Permission Forms</value>
+  </data>
+  <data name="&gt;&gt;btnBanks.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnPurchaseReports.Text" xml:space="preserve">
+    <value>Purchase Reports</value>
+  </data>
+  <data name="&gt;&gt;buttonItem13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnDownpayment.Name" xml:space="preserve">
+    <value>btnDownpayment</value>
+  </data>
+  <data name="&gt;&gt;btnClient.Name" xml:space="preserve">
+    <value>btnClient</value>
+  </data>
+  <data name="ribbonBar15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 102</value>
+  </data>
+  <data name="btnCashPaymentVoucher.Text" xml:space="preserve">
+    <value>Cash Payment Voucher</value>
+  </data>
+  <data name="&gt;&gt;buttonItem11.Name" xml:space="preserve">
+    <value>buttonItem11</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar2.Parent" xml:space="preserve">
+    <value>ribbonPanel2</value>
+  </data>
+  <data name="rb_Inventory.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="btnSalesQuotation.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ribbonBar10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
+    <value>Mi&amp;nimize the Ribbon</value>
+  </data>
+  <data name="&gt;&gt;btnCashPaymentVoucher.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnSalesRpt.Name" xml:space="preserve">
+    <value>btnSalesRpt</value>
+  </data>
+  <data name="&gt;&gt;buttonItem21.Name" xml:space="preserve">
+    <value>buttonItem21</value>
+  </data>
+  <data name="&gt;&gt;btnSalesReturn.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;buttonItem10.Name" xml:space="preserve">
+    <value>buttonItem10</value>
+  </data>
+  <data name="btnReportDailyEntry.Text" xml:space="preserve">
+    <value>Report Daily Entry</value>
+  </data>
+  <data name="&gt;&gt;btn_AccessProfileList.Name" xml:space="preserve">
+    <value>btn_AccessProfileList</value>
+  </data>
+  <data name="ribbonBar11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 94</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>frm_Main</value>
+  </data>
+  <data name="btnTaxPurchaseReports.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEsAAAA8CAYAAAAuaUeTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAABH5JREFUeF7tmu9PU1cYx6/6wje+MNk000Rw2qKCzoiwqckSY3yxvduLLUR9LQWy
+        ZqImJr7gtsNNZRoyUm41lGRbRpbxD/ijRRBS0AVESsFfTAkxW+KyZNYfWTL17pz6PDenp4cG2957T835
+        JN8XnOee53zPl3NvW4qmUCgUCoVCoVBIS2Nj416iz1A+n28rlBwlXPfLWuNAj0kFQ1k87S4zqeBH5/D7
+        /UtJOOZ8qg1PZqgmPPkcphYdEtAsBsXoXyhrqfOr3sWgWKW631sBl9hLU1PTJ6KQUN5gzNKG1oF/aGAw
+        tagY+3teCoKydOXYl1kh8Up1l1VCO/sgoaT4kKg+P9SaERZV+nQZiVMwtSiIwmH1JLJWGM58evzj6neg
+        tTtgWFVt8afFPF2icFilIu8LA1mInnStqYNlnGW9Ht3Nni4YzpvQ/p/LReGwEgWQlyJlB2FZ58CwyEP+
+        v0ICI0Ec54PhJdx0oYqsOQMW7AfD8n7d95IPqzp0c46OlZrAvj1gYHShmnNJHYa16o4bSd5IKQjs2wOG
+        VR0av8UvxhspBYF1e/AEYl+xp+uLXnMJlLSN3wyYGfr2ak5tyqlBc9PJ/FV5cii3Tr0WWLcPNqxaY/IZ
+        DGvlev9yrJWKwLp9eAPRV3ShjSey39HzZqRWIPYCbNtHpd6/DBekYVWHpj6CEgkydgFrs3NzUurT0FDa
+        nycQHQTb9oKBbOsYfzbf6Tr403XzSO+oVDr862jaG5UnGGsAy/biDUb/xEVz3Yr7IiNm+8UJabT3+9en
+        igrsOgMumn7QhycTMKyt0y+txJroNnBb6A3sOgMuuuFE//Ncp0tWgVVnqNAv7cGFaVgfGhM7oKRVBGM/
+        YE3023VL8eSMO2FRcGH6fmu+07XjuwFzd/ugFEJPVGDTOcjL70NcPNet2DM0bV5NzLiq/ol7lh8qsOks
+        uDgNi+gRDKfBmuiWcEPoh3xs+wMsOgsa2HL22l+5TpdM8uiXreero5A3d21ogoa107i5EkokrL6jWBP9
+        pp0WegF77oAm4FaU/nSBNXdgjQjCeszWZRBYcwdPa996NJI+XUayE0ppWKMyCGy5BxrZ2v5bij9dCh7T
+        XISB4bNrZ2iqHKoKngo99oEVmJGwQqOqMRL0xD1yS9vDCR/YlIje3iUYGKqqLZ7YfDo+XXU6nnRT4FA+
+        KoLRWj40twXWFG8bi7j/1HkI40WB621961RycBvhVdDGBP0yBJeVBmh65v79rM9qLS0tBW0K5966cyer
+        d6izs6DejkOMvqBm+Y2wyndDZM7fdN7o2JiwL5Xf70/3bmho+BimyQsGgebruoatVyYcS05P44bGYdqC
+        4Ht3XE5k9aaC61IwTV74DdG/WPIbGh4ZwbA6YNqC4HtPzczmCus6TJMXYjJAzXYaRsYGWMFm3vg29Pl8
+        XjqPPvdEfamwt67ri2Ga3KDh5ubmjI3cvnvX2gxRAC5/I5j5Gb1/f/CA7e3M1/TFghgeZsxnqL6+vgwu
+        ywvSo4vvyWgXXKZQKBQKhUKhUJQamvY/qz7GEk6xWGQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnItemQuery.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="ribbonBar4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 102</value>
+  </data>
+  <data name="&gt;&gt;btn_UserList.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnChangeBranch.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel4.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar5.Name" xml:space="preserve">
+    <value>ribbonBar5</value>
+  </data>
+  <data name="&gt;&gt;btnInvoice.Name" xml:space="preserve">
+    <value>btnInvoice</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="ribbonPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
+    <value>Customize Quick Access Toolbar</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar1.Name" xml:space="preserve">
+    <value>ribbonBar1</value>
+  </data>
+  <data name="ribbonBar14.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonItem5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;rb_MainData.Name" xml:space="preserve">
+    <value>rb_MainData</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
+    <value>&amp;Maximize the Ribbon</value>
+  </data>
+  <data name="ribbonPanel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="ribbonPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="&gt;&gt;btnClient.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar9.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ribbonBar10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ribbonBar5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;buttonItem6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnCompanyData.Text" xml:space="preserve">
+    <value>Company Data</value>
+  </data>
+  <data name="&gt;&gt;btnBackup.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar8.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnClientTB.Text" xml:space="preserve">
+    <value>Client TB</value>
+  </data>
+  <data name="btnChoseBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="btnChoseBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 3</value>
+  </data>
+  <data name="&gt;&gt;btnDailyEntry.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar11.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;btn_UserSettingsProfileList.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="buttonItem5.Text" xml:space="preserve">
+    <value>S&amp;hare...</value>
+  </data>
+  <data name="&gt;&gt;buttonItem7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel2.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonBar8.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel4.Name" xml:space="preserve">
+    <value>ribbonPanel4</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rb_FixedAssets.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;rb_Inventory.Name" xml:space="preserve">
+    <value>rb_Inventory</value>
+  </data>
+  <data name="&gt;&gt;btnProjects.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ribbonPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseOrder.Name" xml:space="preserve">
+    <value>btnPurchaseOrder</value>
+  </data>
+  <data name="&gt;&gt;btnScan.Name" xml:space="preserve">
+    <value>btnScan</value>
+  </data>
+  <data name="&gt;&gt;buttonItem19.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnBankDeposit.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barButtonItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barEditItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonBar13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;btnCoseStore.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel7.Name" xml:space="preserve">
+    <value>ribbonPanel7</value>
+  </data>
+  <data name="ribbonBar4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_User.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;btnItemQuery.Name" xml:space="preserve">
+    <value>btnItemQuery</value>
+  </data>
+  <data name="&gt;&gt;btn_Group.Name" xml:space="preserve">
+    <value>btn_Group</value>
+  </data>
+  <data name="ribbonPanel9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnCoilClose.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonTabItem1.Text" xml:space="preserve">
+    <value>LetterOf Credit </value>
+  </data>
+  <data name="&gt;&gt;btnInventoryReportByItems.Name" xml:space="preserve">
+    <value>btnInventoryReportByItems</value>
+  </data>
+  <data name="ribbonPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="&gt;&gt;btnStores.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ribbonBar9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 102</value>
+  </data>
+  <data name="barStaticItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 0</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_UserList.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btn_AccessProfileList.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;buttonItem15.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnReportDailyEntry.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="labelItem8.Text" xml:space="preserve">
+    <value>Recent Documents</value>
+  </data>
+  <data name="ribbonBar3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 533</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="barStaticItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 37</value>
+  </data>
+  <data name="&gt;&gt;btnCashClientSalesRpt.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>778, 0</value>
+  </data>
+  <data name="btnSalesVatRpt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;buttonItem13.Name" xml:space="preserve">
+    <value>buttonItem13</value>
+  </data>
+  <data name="ribbonBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fluentDesignFormControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnCashClientSalesRpt.Text" xml:space="preserve">
+    <value>Cash Client Sales Report</value>
+  </data>
+  <data name="&gt;&gt;buttonItem19.Name" xml:space="preserve">
+    <value>buttonItem19</value>
+  </data>
+  <data name="barStaticItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;btn_AssetAdditions.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;btnBankDeposit.Name" xml:space="preserve">
+    <value>btnBankDeposit</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar9.Parent" xml:space="preserve">
+    <value>ribbonPanel1</value>
+  </data>
+  <data name="btnBankPaymentVoucher.Text" xml:space="preserve">
+    <value>Bank Payment Voucher</value>
+  </data>
+  <data name="&gt;&gt;buttonItem12.Name" xml:space="preserve">
+    <value>buttonItem12</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnBackup.Text" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="btnCoseStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="&gt;&gt;btn_User.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonBar13.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnItemCard.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;buttonItem18.Name" xml:space="preserve">
+    <value>buttonItem18</value>
+  </data>
+  <data name="buttonItem4.Text" xml:space="preserve">
+    <value>&amp;Save...</value>
+  </data>
+  <data name="&gt;&gt;btnCoseStore.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnChangeStore.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;buttonItem22.Name" xml:space="preserve">
+    <value>buttonItem22</value>
+  </data>
+  <data name="buttonItem9.Text" xml:space="preserve">
+    <value>&amp;2. Prospect Email.rtf</value>
+  </data>
+  <data name="&gt;&gt;btn_UserList.Name" xml:space="preserve">
+    <value>btn_UserList</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar6.Parent" xml:space="preserve">
+    <value>ribbonPanel5</value>
+  </data>
+  <data name="btnCoseStore.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Name" xml:space="preserve">
+    <value>repositoryItemComboBox1</value>
+  </data>
+  <data name="ribbonPanel7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="ribbonPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonItem6.Name" xml:space="preserve">
+    <value>buttonItem6</value>
+  </data>
+  <data name="btnChangeStore.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonBar10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnCoilClose.Name" xml:space="preserve">
+    <value>btnCoilClose</value>
+  </data>
+  <data name="btnPurchaseInvoice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEsAAAA8CAYAAAAuaUeTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAABH5JREFUeF7tmu9PU1cYx6/6wje+MNk000Rw2qKCzoiwqckSY3yxvduLLUR9LQWy
+        ZqImJr7gtsNNZRoyUm41lGRbRpbxD/ijRRBS0AVESsFfTAkxW+KyZNYfWTL17pz6PDenp4cG2957T835
+        JN8XnOee53zPl3NvW4qmUCgUCoVCoVBIS2Nj416iz1A+n28rlBwlXPfLWuNAj0kFQ1k87S4zqeBH5/D7
+        /UtJOOZ8qg1PZqgmPPkcphYdEtAsBsXoXyhrqfOr3sWgWKW631sBl9hLU1PTJ6KQUN5gzNKG1oF/aGAw
+        tagY+3teCoKydOXYl1kh8Up1l1VCO/sgoaT4kKg+P9SaERZV+nQZiVMwtSiIwmH1JLJWGM58evzj6neg
+        tTtgWFVt8afFPF2icFilIu8LA1mInnStqYNlnGW9Ht3Nni4YzpvQ/p/LReGwEgWQlyJlB2FZ58CwyEP+
+        v0ICI0Ec54PhJdx0oYqsOQMW7AfD8n7d95IPqzp0c46OlZrAvj1gYHShmnNJHYa16o4bSd5IKQjs2wOG
+        VR0av8UvxhspBYF1e/AEYl+xp+uLXnMJlLSN3wyYGfr2ak5tyqlBc9PJ/FV5cii3Tr0WWLcPNqxaY/IZ
+        DGvlev9yrJWKwLp9eAPRV3ShjSey39HzZqRWIPYCbNtHpd6/DBekYVWHpj6CEgkydgFrs3NzUurT0FDa
+        nycQHQTb9oKBbOsYfzbf6Tr403XzSO+oVDr862jaG5UnGGsAy/biDUb/xEVz3Yr7IiNm+8UJabT3+9en
+        igrsOgMumn7QhycTMKyt0y+txJroNnBb6A3sOgMuuuFE//Ncp0tWgVVnqNAv7cGFaVgfGhM7oKRVBGM/
+        YE3023VL8eSMO2FRcGH6fmu+07XjuwFzd/ugFEJPVGDTOcjL70NcPNet2DM0bV5NzLiq/ol7lh8qsOks
+        uDgNi+gRDKfBmuiWcEPoh3xs+wMsOgsa2HL22l+5TpdM8uiXreero5A3d21ogoa107i5EkokrL6jWBP9
+        pp0WegF77oAm4FaU/nSBNXdgjQjCeszWZRBYcwdPa996NJI+XUayE0ppWKMyCGy5BxrZ2v5bij9dCh7T
+        XISB4bNrZ2iqHKoKngo99oEVmJGwQqOqMRL0xD1yS9vDCR/YlIje3iUYGKqqLZ7YfDo+XXU6nnRT4FA+
+        KoLRWj40twXWFG8bi7j/1HkI40WB621961RycBvhVdDGBP0yBJeVBmh65v79rM9qLS0tBW0K5966cyer
+        d6izs6DejkOMvqBm+Y2wyndDZM7fdN7o2JiwL5Xf70/3bmho+BimyQsGgebruoatVyYcS05P44bGYdqC
+        4Ht3XE5k9aaC61IwTV74DdG/WPIbGh4ZwbA6YNqC4HtPzczmCus6TJMXYjJAzXYaRsYGWMFm3vg29Pl8
+        XjqPPvdEfamwt67ri2Ga3KDh5ubmjI3cvnvX2gxRAC5/I5j5Gb1/f/CA7e3M1/TFghgeZsxnqL6+vgwu
+        ywvSo4vvyWgXXKZQKBQKhUKhUJQamvY/qz7GEk6xWGQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonBar12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel6.Name" xml:space="preserve">
+    <value>ribbonPanel6</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnProjects.Text" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="&gt;&gt;rb_FixedAssets.Name" xml:space="preserve">
+    <value>rb_FixedAssets</value>
+  </data>
+  <data name="&gt;&gt;btnAssetes.Name" xml:space="preserve">
+    <value>btnAssetes</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateInvoiceData.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnChoseBranch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_AccessProfile.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Reports.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem2.Name" xml:space="preserve">
+    <value>barStaticItem2</value>
+  </data>
+  <data name="buttonItem6.Text" xml:space="preserve">
+    <value>&amp;Print...</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel9.Name" xml:space="preserve">
+    <value>ribbonPanel9</value>
+  </data>
+  <data name="btn_SalesInvoice.Text" xml:space="preserve">
+    <value>Sales Invoice</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ribbonBar14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;cmbYear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonPanel3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar1.Parent" xml:space="preserve">
+    <value>ribbonPanel1</value>
+  </data>
+  <data name="btnChangeBranch.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnPurchaseOrder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEsAAAA8CAYAAAAuaUeTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAABH5JREFUeF7tmu9PU1cYx6/6wje+MNk000Rw2qKCzoiwqckSY3yxvduLLUR9LQWy
+        ZqImJr7gtsNNZRoyUm41lGRbRpbxD/ijRRBS0AVESsFfTAkxW+KyZNYfWTL17pz6PDenp4cG2957T835
+        JN8XnOee53zPl3NvW4qmUCgUCoVCoVBIS2Nj416iz1A+n28rlBwlXPfLWuNAj0kFQ1k87S4zqeBH5/D7
+        /UtJOOZ8qg1PZqgmPPkcphYdEtAsBsXoXyhrqfOr3sWgWKW631sBl9hLU1PTJ6KQUN5gzNKG1oF/aGAw
+        tagY+3teCoKydOXYl1kh8Up1l1VCO/sgoaT4kKg+P9SaERZV+nQZiVMwtSiIwmH1JLJWGM58evzj6neg
+        tTtgWFVt8afFPF2icFilIu8LA1mInnStqYNlnGW9Ht3Nni4YzpvQ/p/LReGwEgWQlyJlB2FZ58CwyEP+
+        v0ICI0Ec54PhJdx0oYqsOQMW7AfD8n7d95IPqzp0c46OlZrAvj1gYHShmnNJHYa16o4bSd5IKQjs2wOG
+        VR0av8UvxhspBYF1e/AEYl+xp+uLXnMJlLSN3wyYGfr2ak5tyqlBc9PJ/FV5cii3Tr0WWLcPNqxaY/IZ
+        DGvlev9yrJWKwLp9eAPRV3ShjSey39HzZqRWIPYCbNtHpd6/DBekYVWHpj6CEgkydgFrs3NzUurT0FDa
+        nycQHQTb9oKBbOsYfzbf6Tr403XzSO+oVDr862jaG5UnGGsAy/biDUb/xEVz3Yr7IiNm+8UJabT3+9en
+        igrsOgMumn7QhycTMKyt0y+txJroNnBb6A3sOgMuuuFE//Ncp0tWgVVnqNAv7cGFaVgfGhM7oKRVBGM/
+        YE3023VL8eSMO2FRcGH6fmu+07XjuwFzd/ugFEJPVGDTOcjL70NcPNet2DM0bV5NzLiq/ol7lh8qsOks
+        uDgNi+gRDKfBmuiWcEPoh3xs+wMsOgsa2HL22l+5TpdM8uiXreero5A3d21ogoa107i5EkokrL6jWBP9
+        pp0WegF77oAm4FaU/nSBNXdgjQjCeszWZRBYcwdPa996NJI+XUayE0ppWKMyCGy5BxrZ2v5bij9dCh7T
+        XISB4bNrZ2iqHKoKngo99oEVmJGwQqOqMRL0xD1yS9vDCR/YlIje3iUYGKqqLZ7YfDo+XXU6nnRT4FA+
+        KoLRWj40twXWFG8bi7j/1HkI40WB621961RycBvhVdDGBP0yBJeVBmh65v79rM9qLS0tBW0K5966cyer
+        d6izs6DejkOMvqBm+Y2wyndDZM7fdN7o2JiwL5Xf70/3bmho+BimyQsGgebruoatVyYcS05P44bGYdqC
+        4Ht3XE5k9aaC61IwTV74DdG/WPIbGh4ZwbA6YNqC4HtPzczmCus6TJMXYjJAzXYaRsYGWMFm3vg29Pl8
+        XjqPPvdEfamwt67ri2Ga3KDh5ubmjI3cvnvX2gxRAC5/I5j5Gb1/f/CA7e3M1/TFghgeZsxnqL6+vgwu
+        ywvSo4vvyWgXXKZQKBQKhUKhUJQamvY/qz7GEk6xWGQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_UserSettingsProfileList.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ribbonPanel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="buttonItem1.Text" xml:space="preserve">
+    <value>buttonItem1</value>
+  </data>
+  <data name="ribbonBar14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 102</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceBelowRibbonText" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
+    <value>&amp;Remove from Quick Access Toolbar</value>
+  </data>
+  <data name="&gt;&gt;btnSalesReturn.Name" xml:space="preserve">
+    <value>btnSalesReturn</value>
+  </data>
+  <data name="&gt;&gt;btn_Group.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 102</value>
+  </data>
+  <data name="buttonItem15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ribbonBar4.Text" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAccData.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel6.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="buttonItem10.Text" xml:space="preserve">
+    <value>&amp;3. Customer Email.rtf</value>
+  </data>
+  <data name="ribbonBar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 94</value>
+  </data>
+  <data name="btnSalesOrder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;btnBackup.Name" xml:space="preserve">
+    <value>btnBackup</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnPoReport.Text" xml:space="preserve">
+    <value>Purchase Order Report</value>
+  </data>
+  <data name="buttonItem18.Text" xml:space="preserve">
+    <value>Trail Balance</value>
+  </data>
+  <data name="btnChangeStore.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;btn_SalesInvoice.Name" xml:space="preserve">
+    <value>btn_SalesInvoice</value>
+  </data>
+  <data name="&gt;&gt;buttonItem4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="barButtonItem3.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnChoseBranch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rb_Inventory.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barStaticItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;btnClssification.Name" xml:space="preserve">
+    <value>btnClssification</value>
+  </data>
+  <data name="buttonItem25.Text" xml:space="preserve">
+    <value>Close Invoice To LC</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ribbonPanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="buttonItem3.Text" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="&gt;&gt;btnCashVoucher.Name" xml:space="preserve">
+    <value>btnCashVoucher</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnSalesOrder.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnItems.Name" xml:space="preserve">
+    <value>btnItems</value>
+  </data>
+  <data name="&gt;&gt;btnLanguh.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="ribbonBar15.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="ribbonPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ribbonBar11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_UserSettingsProfileList.Name" xml:space="preserve">
+    <value>btn_UserSettingsProfileList</value>
+  </data>
+  <data name="btnRestor.Text" xml:space="preserve">
+    <value>Restor</value>
+  </data>
+  <data name="ribbonBar5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="ribbonBar5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="ribbonPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnCoilClose.Text" xml:space="preserve">
+    <value>Coil Close</value>
+  </data>
+  <data name="ribbonPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="btnInvoice.Text" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonPanel8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ribbonBar8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="&gt;&gt;btnCashVoucher.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnDailyEntry.Name" xml:space="preserve">
+    <value>btnDailyEntry</value>
+  </data>
+  <data name="ribbonBar6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 0</value>
+  </data>
+  <data name="ribbonPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 97</value>
+  </data>
+  <data name="&gt;&gt;btnCompanyData.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar4.Parent" xml:space="preserve">
+    <value>ribbonPanel4</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
+    <value>&amp;Add &gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;barEditItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar7.Parent" xml:space="preserve">
+    <value>ribbonPanel6</value>
+  </data>
+  <data name="btnCoseStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1048, 3</value>
+  </data>
+  <data name="&gt;&gt;office2007StartButton1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Office2007StartButton, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnPoReport.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonControl1.Text" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;rb_Contracting.Name" xml:space="preserve">
+    <value>rb_Contracting</value>
+  </data>
+  <data name="&gt;&gt;btn_AssetesGroup.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonBar12.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="ribbonBar15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="ribbonBar7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 102</value>
+  </data>
+  <data name="barStaticItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonPanel9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnChoseBranch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ribbonBar9.Text" xml:space="preserve">
+    <value>Data Backup</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Name" xml:space="preserve">
+    <value>barEditItem1</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
+    <value>&amp;Customize Quick Access Toolbar...</value>
+  </data>
+  <data name="btnChangeStore.Caption" xml:space="preserve">
+    <value>Chose Store</value>
+  </data>
+  <data name="ribbonPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="&gt;&gt;rb_Sales.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnSalesVatRpt.Name" xml:space="preserve">
+    <value>btnSalesVatRpt</value>
+  </data>
+  <data name="btn_UserSettingsProfile.Text" xml:space="preserve">
+    <value>Permission forms</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorPickEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorPickEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnItemQuery.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;rb_Permitions.Name" xml:space="preserve">
+    <value>rb_Permitions</value>
+  </data>
+  <data name="&gt;&gt;btnBankPaymentVoucher.Name" xml:space="preserve">
+    <value>btnBankPaymentVoucher</value>
+  </data>
+  <data name="&gt;&gt;btnChoseBranch.Name" xml:space="preserve">
+    <value>btnChoseBranch</value>
+  </data>
+  <data name="btnSalesOrder.Text" xml:space="preserve">
+    <value>Sales Order</value>
+  </data>
+  <data name="btnChangeBranch.Caption" xml:space="preserve">
+    <value>Chose Account Branch</value>
+  </data>
+  <data name="&gt;&gt;btnLanguh.Name" xml:space="preserve">
+    <value>btnLanguh</value>
+  </data>
+  <data name="cmbYear.Items" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnSalesRpt.Tag" xml:space="preserve">
+    <value>Frm_Config</value>
+  </data>
+  <data name="&gt;&gt;btnChangeStore.Name" xml:space="preserve">
+    <value>btnChangeStore</value>
+  </data>
+  <data name="rb_MainData.Text" xml:space="preserve">
+    <value>Main Data</value>
+  </data>
+  <data name="&gt;&gt;itemContainer3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="Reports.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="ribbonPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ribbonBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 102</value>
+  </data>
+  <data name="btnVendors.Tag" xml:space="preserve">
+    <value>Frm_Config</value>
+  </data>
+  <data name="&gt;&gt;btnProjects.Name" xml:space="preserve">
+    <value>btnProjects</value>
+  </data>
+  <data name="ribbonBar2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="office2007StartButton1.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ribbonPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;buttonItem15.Name" xml:space="preserve">
+    <value>buttonItem15</value>
+  </data>
+  <data name="&gt;&gt;rb_Purchase.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ribbonBar1.Text" xml:space="preserve">
+    <value>ribbonBar1</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;btnInvoice.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="Reports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 102</value>
+  </data>
+  <data name="ribbonBar5.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="ribbonBar3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonItem25.Name" xml:space="preserve">
+    <value>buttonItem25</value>
+  </data>
+  <data name="ribbonBar15.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCashClientSalesRpt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_Group.Text" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="&gt;&gt;rb_MainData.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barEditItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseOrder.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="ribbonPanel6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 3</value>
+  </data>
+  <data name="cmbYear.Items2" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="rb_Account.Text" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabItem1.Name" xml:space="preserve">
+    <value>ribbonTabItem1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem20.Name" xml:space="preserve">
+    <value>buttonItem20</value>
+  </data>
+  <data name="barEditItem1.Caption" xml:space="preserve">
+    <value>barEditItem1</value>
+  </data>
+  <data name="ribbonBar12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 102</value>
+  </data>
+  <data name="btnInventoryReportByItems.Text" xml:space="preserve">
+    <value>Inventory Report By Items</value>
+  </data>
+  <data name="btnSalesVatRpt.Text" xml:space="preserve">
+    <value>Sales VAT Reports</value>
+  </data>
+  <data name="ribbonPanel9.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnPurchaseOrder.Text" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSalesVatRpt.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnChangeBranch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCoilReport.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonBar6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 94</value>
+  </data>
+  <data name="Reports.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rb_Permitions.Text" xml:space="preserve">
+    <value>permissions</value>
+  </data>
+  <data name="ribbonBar6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 2</value>
+  </data>
+  <data name="&gt;&gt;btnClssification.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnCofig.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="ribbonBar7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;btnChoseBranch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonItem2.Text" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="btnSalesReturn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEsAAAA8CAYAAAAuaUeTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAB8ZJREFUeF7tWnlMlEcUp7Wx1SZNrW28ERSQ+xSJUYtXr6hYazWWklortamVqNSm
+        KZrWqKnaqv8YUiMk2CqtYkQwKmC1FLkUEUSJxaNyyaHAXuyByO70vWG+5dt1UPdid+3+kl/m8c18M++9
+        fW8uPjcXXHDBBRdcsCkKy8omMNGteNeetUx0uztv/l9MdJPv2bOcif8P1C1d9gOWyilTuzTBYQRltX8Q
+        UYdN7pXDI/tkKAVZ5TGRyKEOZURV0qZDTHy2oAkKpUZKMjPno/FNMYsy1CHh1BEqqBOcomEllUMj9PK9
+        N2fpZeW6daOwbIRn2KfKaxLJunIpCmWnhcbTizQkJb2Dst5QFkHWYCeWzKFHi4pm4DgqkLF0CkgOHRov
+        nT0nF2UVM0QcIbZi8+y3aPmApfX9gwdHlaSkUj0cDrL1G2KZqI8iwVkDyc6IKUSY80ovX/ZjKjkWJCtW
+        7kAFlcFhGrHy9qIKHCaJX7UJ01SY2+wOdUQkaV8SS8Odp7QjMCU390vUTxUQbF+nEUKe5ynoiCxe9YV9
+        nKUIi3xA5wZ3T65ijkZMy7bYuA3qcZ6kC1KTmTFw4CnlDCwtLR2Yib+hpGQITwGnYmjvZvjExk22iTDV
+        7t1jmOhWv3NX0iMKOBmbp0fbNhWVvoHcgZ2S4X1yCWQLM9G66GQbPkekHDakd8a4c+t41MDZtLq6ejAz
+        zXoQdsWORE1kFJEnbiCkpwd2MH3A8yGv/eN4IHX/AWaqdaAW3Q7Yk92VlcwtfdDpdORM4tek3DfAJGfh
+        luJwXt40ZqJlqElLm8YbxJ5s/SyeuYiQX4YNJ3fh8GxONOmJWQN7L0lgiHUmfQ38YtyBbEFQvBOW9f4c
+        gNEAoUSdVeE50aBOEj2LRpmpzvvtyB9rmKnmQT5ydJYaT/Gczm1JAQUB/d99SYuKaBtVh4RoTp3WO09A
+        pYehEx9HdL4a2nd+uPRY+7FjY5n55kEz0Yc7iEWcDJPzukRyn92WinkjKIwajBFiXCdQBT+isYMQ2+G4
+        Wm/G3IoOS87M/J6ZbDok586NV4aE63idW0K8RhbjHswVBm1AcZ1WS+uuPiZCulrv0TZtNTWkg+N0UygL
+        n1LNzDYfisAwJa9zS4iXgmKgYzrYEURgR9oBVksMnosphXkUge+3i+vA2Z2T/EkP0ZEm4x/iCUzZu/c2
+        M908qE0YUOHpRXQPYd+DKQLERGmD1cq4nWBkS+ZxKmPbDlG9UuTQuoBgg3fF1LJULEtYS6RwhDFOzIYz
+        Z7jvGTM1/XfzV0LY2g7u9jPteNN9/TpT0QhgUKPRatr7WEdaQJZfvUb/xnZScJLQRsP6ay44b/CumK2Q
+        pjz8k5VFTr8xwqC/p6HGa5Jl24dLP/3M7VhMDUzYArLdPfRLt7yqivw6cxapDzacdAXcYZOxAB3sxuXM
+        QKmPH3tK9AuB5JVh7AkhjTm5Bu/uDwomt6E/c/ZcMjgrVpSWejOTTYfS2/cor2Mu0VksJerASLrRgxUL
+        ncjbfghtL7w6nHSdPEVlPaBOIbRjwCgUA1O4FSZ2BThWKerXEiomR1k2X52uqPBvnRHN7dyYXW1tzBQO
+        wNga0dxH2GonBjpA293N/uh1WCscjAVgfTFE+WVI6U4T0+tJxEP1v+/NI8dzcmYy002Halncdl7n/bEy
+        /nNqKEaCTovUUgqoGudB2wnOUkmlJGusO2ljaYYppAf0gVFzynsSaeQsEtakwi+glZlsHmpra1+6syDm
+        6gP//lej/qgM600PNB55a/VXzAO9W4EetZrK2XA8eeRdSOE/R4wmUgv3TiYT5ru6H3d+zMw3D4ptO1dx
+        O++HUh9/0pySavBMtmAhdQ4CndhdV0flC1u3GbSzB7tg1WemWoaH4zzpxxr0/GQ0CI8d/kHUCYhuuZy0
+        L19BemQy9oSQwzELaTtZTg7JGDWae9yxC8G+ckKGMrMtg3rHDnfuIBzWgINxvhED57CMmPdhs8l/x17U
+        evta9y5eOSXqb4ysp40uJKZamZcPyYZDeBlM0DIrr15WJUQ3M9W64A7mpLy9aDEpLy8fioTgf56ZaB3w
+        BnR2ts592zZRJYA3qLPx7Pnz2Q0NDUPSKyq88/PzX2CmWRfKgCAtzl0D8YGarZlByCBmlm2hXLDoXZ4C
+        js4u2Hii/hhNZ8+eHUGNsTVw73V35hySfORINk8pRyP9sJfdcFxbnXCQmTGwUMM+xVgxR+WVlpaXmdr2
+        QfHKeHKysHCCIiFxI09BR2BJQ8NrNz6KI/LJUbZd+Z4W6sBQogmJIMl5udU8hQea7VOnERX7jDzv+PFQ
+        pqZj4ObNmy9i2Tk9egkqqIXDtFj5gWL97Lm9MqzYVDHArdVr0pnoWFB4+ZLc/HxflIUb0pJPPjUwyJY8
+        vXkzdZI0IvI+lk6Dh76B9JMeSVpaAhrS4xdo0vnySTyUuJ6W2CeOVx8bd1IW0RdRTglpdvYH6Vu21qIs
+        LN8nCgq+EYy+sniJ3gH9km2Cm6dOJ8rAUCnK6YWFczMyMgbhf6fpQM8a8OvmwsLCYVSGiDi6bZuCymB8
+        04zeTxdRlrCVC+WamEV6OX3fvjyUpYEhLU1NTda5f3IGNCWsTWaim2aCD157PYeyaqwn3ga8jnLLt99t
+        uXjx4kiUEVa/HXDBBRdccMEFF0yCm9t/KGr4WZ5iT1EAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btn_SalesInvoice.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnInventoryReportByGroups.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="repositoryItemComboBox1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnTransferAccountTransaction.Name" xml:space="preserve">
+    <value>btnTransferAccountTransaction</value>
+  </data>
+  <data name="&gt;&gt;btnCofig.Name" xml:space="preserve">
+    <value>btnCofig</value>
+  </data>
+  <data name="btn_UserList.Text" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="btnAssetes.Text" xml:space="preserve">
+    <value>Assetes</value>
+  </data>
+  <data name="&gt;&gt;Reports.Parent" xml:space="preserve">
+    <value>ribbonPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnSalesQuotation.Name" xml:space="preserve">
+    <value>btnSalesQuotation</value>
+  </data>
+  <data name="barStaticItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnVendors.Text" xml:space="preserve">
+    <value>Vendors</value>
+  </data>
+  <data name="barStaticItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbYear.Parent" xml:space="preserve">
+    <value>fluentDesignFormControl1</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar above the Ribbon</value>
+  </data>
+  <data name="btnClient.Text" xml:space="preserve">
+    <value>Clients</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel8.Name" xml:space="preserve">
+    <value>ribbonPanel8</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar8.Parent" xml:space="preserve">
+    <value>ribbonPanel6</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel7.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnClssification.Text" xml:space="preserve">
+    <value>Chart Of Classification</value>
+  </data>
+  <data name="&gt;&gt;btn_AccessProfileList.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnChangeBranch.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar6.Name" xml:space="preserve">
+    <value>ribbonBar6</value>
+  </data>
+  <data name="ribbonBar2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ribbonPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar2.Name" xml:space="preserve">
+    <value>ribbonBar2</value>
+  </data>
+  <data name="&gt;&gt;btnCashPaymentVoucher.Name" xml:space="preserve">
+    <value>btnCashPaymentVoucher</value>
+  </data>
+  <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
+    <value>qatCustomizeItem1</value>
+  </data>
+  <data name="ribbonBar14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="buttonItem19.Text" xml:space="preserve">
+    <value>Debt Ages</value>
+  </data>
+  <data name="btnTaxPurchaseReports.Text" xml:space="preserve">
+    <value>TAX PurchaseReports</value>
+  </data>
+  <data name="rb_Contracting.Text" xml:space="preserve">
+    <value>Contracting</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_AssetesGroup.Name" xml:space="preserve">
+    <value>btn_AssetesGroup</value>
+  </data>
+  <data name="&gt;&gt;btnRestor.Name" xml:space="preserve">
+    <value>btnRestor</value>
+  </data>
+  <data name="Reports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 0</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseReports.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;buttonItem17.Name" xml:space="preserve">
+    <value>buttonItem17</value>
+  </data>
+  <data name="btn_AccessProfileList.Text" xml:space="preserve">
+    <value>Show Permission forms</value>
+  </data>
+  <data name="ribbonPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btn_AssetAdditions.Name" xml:space="preserve">
+    <value>btn_AssetAdditions</value>
+  </data>
+  <data name="&gt;&gt;itemContainer4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btnDailyEntry.Text" xml:space="preserve">
+    <value>Daily Entry</value>
+  </data>
+  <data name="ribbonPanel10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbYear.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonBar10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 102</value>
+  </data>
+  <data name="ribbonPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel5.Parent" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseInvoice.Name" xml:space="preserve">
+    <value>btnPurchaseInvoice</value>
+  </data>
+  <data name="cmbYear.Items4" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnChoseBranch.Text" xml:space="preserve">
+    <value>Accounting Branches</value>
+  </data>
+  <data name="&gt;&gt;buttonItem27.Name" xml:space="preserve">
+    <value>buttonItem27</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;buttonItem16.Name" xml:space="preserve">
+    <value>buttonItem16</value>
+  </data>
+  <data name="ribbonBar15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ribbonBar9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 0</value>
+  </data>
+  <data name="cmbYear.Items3" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;itemContainer3.Name" xml:space="preserve">
+    <value>itemContainer3</value>
+  </data>
+  <data name="buttonItem12.Text" xml:space="preserve">
+    <value>Opt&amp;ions</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
+    <value>&lt;b&gt;Customize Quick Access Toolbar&lt;/b&gt;</value>
+  </data>
+  <data name="ribbonPanel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ribbonBar11.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rb_Sales.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="&gt;&gt;btnClientTB.Name" xml:space="preserve">
+    <value>btnClientTB</value>
+  </data>
+  <data name="btnCoilReport.Text" xml:space="preserve">
+    <value>Coil Report</value>
+  </data>
+  <data name="&gt;&gt;buttonItem10.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barButtonItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar12.Parent" xml:space="preserve">
+    <value>ribbonPanel7</value>
+  </data>
+  <data name="&gt;&gt;btnVendors.Name" xml:space="preserve">
+    <value>btnVendors</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnReportDailyEntry.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar9.Name" xml:space="preserve">
+    <value>ribbonBar9</value>
+  </data>
+  <data name="ribbonBar10.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="ribbonBar2.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="&gt;&gt;galleryContainer1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.GalleryContainer, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar12.Name" xml:space="preserve">
+    <value>ribbonBar12</value>
+  </data>
+  <data name="btnChangeStore.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonBar4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="buttonItem11.Text" xml:space="preserve">
+    <value>&amp;4. example.rtf</value>
+  </data>
+  <data name="buttonItem27.Text" xml:space="preserve">
+    <value>Close Invoice To LC</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.Parent" xml:space="preserve">
+    <value>ribbonPanel3</value>
+  </data>
+  <data name="ribbonPanel5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPurchaseInvoice.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="ribbonPanel1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStores.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnCashClientSalesRpt.Name" xml:space="preserve">
+    <value>btnCashClientSalesRpt</value>
+  </data>
+  <data name="ribbonBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="btn_UserSettingsProfile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;btnClientTB.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barEditItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar11.Parent" xml:space="preserve">
+    <value>ribbonPanel3</value>
+  </data>
+  <data name="buttonItem19.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;rb_Production.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnTransferAccountTransaction.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;btnScan.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btn_AccessProfile.Name" xml:space="preserve">
+    <value>btn_AccessProfile</value>
+  </data>
+  <data name="ribbonPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 97</value>
+  </data>
+  <data name="&gt;&gt;Reports.Name" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar10.Parent" xml:space="preserve">
+    <value>ribbonPanel4</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar11.Name" xml:space="preserve">
+    <value>ribbonBar11</value>
+  </data>
+  <data name="btn_AssetAdditions.Text" xml:space="preserve">
+    <value>Asset Additions</value>
+  </data>
+  <data name="&gt;&gt;rb_Sales.Name" xml:space="preserve">
+    <value>rb_Sales</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel3.Name" xml:space="preserve">
+    <value>ribbonPanel3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanel10.Name" xml:space="preserve">
+    <value>ribbonPanel10</value>
+  </data>
+  <data name="&gt;&gt;barEditItem2.Name" xml:space="preserve">
+    <value>barEditItem2</value>
+  </data>
+  <data name="cmbYear.Items1" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar12.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar10.Name" xml:space="preserve">
+    <value>ribbonBar10</value>
+  </data>
+  <data name="ribbonPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 41</value>
+  </data>
+  <data name="repositoryItemColorPickEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="barButtonItem3.Caption" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="btnScan.Text" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="ribbonPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 105</value>
+  </data>
+  <data name="ribbonPanel5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar15.Parent" xml:space="preserve">
+    <value>ribbonPanel10</value>
+  </data>
+  <data name="ribbonBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="&gt;&gt;buttonItem8.Name" xml:space="preserve">
+    <value>buttonItem8</value>
+  </data>
+  <data name="buttonItem7.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 496</value>
+  </data>
+  <data name="btnPurchaseInvoice.Text" xml:space="preserve">
+    <value>Purchase Invoice</value>
+  </data>
+  <data name="btnItems.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="ribbonPanel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar7.Name" xml:space="preserve">
+    <value>ribbonBar7</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar15.Name" xml:space="preserve">
+    <value>ribbonBar15</value>
+  </data>
+  <data name="Reports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar11.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.Name" xml:space="preserve">
+    <value>ribbonBar3</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar14.Parent" xml:space="preserve">
+    <value>ribbonPanel9</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonItem9.Name" xml:space="preserve">
+    <value>buttonItem9</value>
+  </data>
+  <data name="&gt;&gt;btnInventoryReportByItems.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="btn_UserSettingsProfileList.Text" xml:space="preserve">
+    <value>Show Permission forms</value>
+  </data>
+  <data name="ribbonPanel3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 10, 3</value>
+  </data>
+  <data name="&gt;&gt;btnVendors.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+  <metadata name="ribbonBar7.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACC_YEAR" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANCH_code" type="xs:string" minOccurs="0" />
+              <xs:element name="ser_no" type="xs:string" minOccurs="0" />
+              <xs:element name="SOURCE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="g_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Inv_No" type="xs:int" minOccurs="0" />
+              <xs:element name="Inv_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Po_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Inv_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Returened" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OldPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OldBalance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CurrentPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NewBalance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="main_counter" type="xs:int" minOccurs="0" />
+              <xs:element name="Inv_Transaction_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="cyear" type="xs:string" minOccurs="0" />
+              <xs:element name="totalPaid" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Company_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_a_name" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_e_name" type="xs:string" minOccurs="0" />
+              <xs:element name="User_id" type="xs:string" minOccurs="0" />
+              <xs:element name="G_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Comp_Vat_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_AdressA" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_AdressE" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Phone_no" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Web_Site" type="xs:string" minOccurs="0" />
+              <xs:element name="Comp_Rc" type="xs:string" minOccurs="0" />
+              <xs:element name="h_pic" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="f_pic" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="stamp_pic" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PO_Box" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

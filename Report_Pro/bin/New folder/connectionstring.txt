@@ -1,0 +1,1 @@
+Data Source =SQL8004.site4now.net;Initial Catalog=db_a93ef5_watamdb;User Id=db_a93ef5_watamdb_admin;Password=Watam2030
